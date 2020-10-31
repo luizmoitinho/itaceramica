@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<htm lang="pt-br">
+<html lang="pt-br">
 
     <head>
         <meta charset="UTF-8">
@@ -9,57 +9,47 @@
     </head>
 
     <body>
-        <header class="nav-bar container row">
-            <div class="grid grid-columns-1-4">
-                <div class="logo ">
+
+        <header class="nav-bar">
+            <nav class="d-flex">
+                <div class="logo col-2">
                     <a href="">
                         Itacerâmica
                     </a>
                 </div>
-                <div class="grid grid-columns-2 ">
-                    <div class="row justify-content-center align-items-center">
-                        <input type="text" class="input-larger" placeholder="Que achar mais rápido? Pesquise aqui">
-                        <input type="button" class="icon-search ">
+                <div class="col-10">
+                        <div class="row d-flex justify-content-end" id="nav-side">
+                            <div class="col-5 m-0">
+                                <div class="row d-flex justify-content-end">
+                                    <input type="text" class=" m-0 input-larger"
+                                    placeholder="Quer achar mais rápido? Pesquise aqui">
+                                    <input type="button" class="m-0 icon-search ">
+                                </div>
+                            </div>
+                            <div class="col-5" id="nav-actions-side">
+                                <div class="row d-flex align-items-center">
+           
+                                    <a href="" class="col-3" id="requests">
+                                        
+                                    </a>
+                 
+                                    <a href="" class="col-3" id="shopping-car">
+                                       
+                                    </a>
+                             
+     
+                                    <a href="" class="btn-primary col-3 text-center">
+                                        Contato
+                                    </a>
+                                
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="grid grid-columns-3 align-items-center ">
-                        <div class="">
-                            <a href="">
-                                Acompanhe seus pedidos
-                            </a>
-                        </div>
-                        <div class="item-2">
-                            <a href="">
-                                Meu Carrinho
-                            </a>
-                        </div>
-                        <div class="btn-primary">
-                            <a href="">
-                                Contato
-                            </a>
-                        </div>
-                    </div>
                 </div>
-            </div>
-           <div class="grid-columns-1 mt-2 d-none">
-                <div class="grid grid-columns-3 align-items-center text-center ">
-                <div class="">
-                    <a href="">
-                        Acompanhe seus pedidos
-                    </a>
-                </div>
-                <div class="item-2">
-                    <a href="">
-                        Meu Carrinho
-                    </a>
-                </div>
-                <div class="btn-primary">
-                    <a href="">
-                        Contato
-                    </a>
-                </div>
-            </div>
-           </div>
-
+            </nav>
+            
+        
         </header>
     </body>
 
