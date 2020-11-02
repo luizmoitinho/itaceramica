@@ -24,6 +24,10 @@ html,body{
   font: 98%  'Roboto', sans-serif;
 }
 
+nav{
+  display: block;
+}
+
 a{
   text-decoration: none;
   color: var(--color-white-primary)
@@ -74,6 +78,16 @@ input:focus{
 }
 
 /*=========== GERAL ================*/
+
+
+.icon-burguer{
+  height: 3px;
+  width: 25px;
+	margin: 2px;
+	background: #fff;
+	text-align: center;
+	font-size: 1.5em;
+}
 
 .icon-search,
 .input-larger{
@@ -145,16 +159,16 @@ container{
   margin: 0  !important;
 }
 .mr-1{
-  margin-right: 1em;
+  margin-right: 1em !important;
 }
 .mr-2{
-  margin-right: 2em;
+  margin-right: 2em !important;
 }
 .mt-1{
-  margin-top: 1em;
+  margin-top: 1em !important;
 }
 .mt-2{
-  margin-top: 2em;
+  margin-top: 2em !important;
 }
 
 .row::after {
@@ -204,8 +218,8 @@ container{
   align-items: center;
   border-radius: .3em;
   text-align: center;
-  box-sizing: border-box;
 
+  margin: 0;
 }
 
 
@@ -216,14 +230,31 @@ container{
   padding: 1em;
   display: grid;
   background-color: var(--color-red-primary);
-
 }
 
+.nav{
+  width: 95%;
+  display: flex;
+  margin: 0 1em 0 1em;
+}
+
+.nav-bar>nav:last-child{
+  display: flex;
+  justify-self: end;
+}
 
 .logo>a{
   align-self: flex-start;
   font-size: 2em;
 }
+
+#menu{
+  display: none;
+	grid-template-rows: 1fr ;
+  cursor: pointer;
+
+}
+
 
 .nav-bar a {
   transition: .8s;
@@ -232,17 +263,26 @@ container{
 .nav-bar .actions a:hover{
   transform: scale(1.5);
   color: var(--color-gray-light);
-
 }
 
 
 #requests::after{
-  content: "Acompanhe seus pedidos";
+  content: "Seus pedidos";
 }
 
 #shopping-car::after{
   content: "Meu Carrinho";
 }
+
+
+#nav-actions-footer{
+  display: none;
+}
+
+#search-footer{
+  display: none;
+}
+
 
 
 @media (max-width: 1200px) { 
@@ -256,12 +296,6 @@ container{
   #nav-actionsside{
     display: block;
   }
-
-  #nav-actions-footer{
-    display: none !important;
-  }
-
-
 
 }
 
@@ -291,33 +325,61 @@ container{
     margin:0
   }
 
-
-
  }
 
-
-
-
-@media (max-width: 576px) { 
-
-
-
- }
-
+ 
 @media (max-width: 768px) { 
+  body{
+    font-size: 96%;
+  }
+
   .d-md-none{
     display: none !important;
   }
   .d-md-block{
     display: block !important;
   }
-
-  #nav-actions-footer{
-    display: block !important;
+  
+  #nav-search{
+    display: none;
   }
 
+  #nav-actions-side{
+    width: 70%;
+  
+  }
+
+  .input-larger{  
+     width: 80% !important;
+     border-radius:  .2em 0 0em .2em;
+  }
+  #search-footer{
+    margin-top: 1em !important;
+    display: flex;
+  }
 
  }
 
+@media (max-width: 576px) { 
+
+  #nav-actions-side,
+  #search-footer{
+    display: none;
+  }
+  .logo>a{
+    font-size: 1.9em;
+  }
+
+  #search-footer{
+    margin-top: 1em !important;
+    display: flex;
+    margin: 0;
+  }
+  
+  #menu{
+    display: grid;
+
+  }
+ }
 
 
