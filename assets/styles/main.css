@@ -12,7 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #d80039;
+  background-color: var(--color-red-primary);
   height: 5em;
   padding: 1.5em;
 }
@@ -70,6 +70,13 @@
   color: var(--color-gray-light);
 }
 
+#nav-actions-side a{
+  padding: 1em;
+  border-radius:.3em;
+}
+#nav-actions-side a:hover{
+  background: rgba(0, 0, 0, 0.22);
+}
 
 #requests::after{
   content: "Seus Pedidos";
@@ -87,6 +94,28 @@
 #search-footer{
   display: none;
 }
+
+.menu-products{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: var(--color-red-primary);
+  height: 2em;
+  padding: 1.5em;
+}
+
+.menu-products>a{
+ color: #fff;
+}
+
+.menu-products>a:hover{
+  background: rgba(0, 0, 0, 0.22);
+  padding: .5em;
+ }
+
 
 
 
