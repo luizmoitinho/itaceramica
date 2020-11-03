@@ -91,7 +91,9 @@
   
   #menu{
     display: grid;
-
+  }
+  .menu-products{
+    display: none;
   }
  }
 
