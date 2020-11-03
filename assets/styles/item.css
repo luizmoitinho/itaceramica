@@ -31,7 +31,7 @@
 }
 
 .item-container{
-    grid-template-columns: repeat(auto-fill, minmax(13em, auto));
+    grid-template-columns: repeat(auto-fill, minmax(14em, auto));
 }
 
 .grid {
