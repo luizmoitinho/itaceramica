@@ -8,7 +8,6 @@
   --color-white-primary:#fff;
   --color-orange-primary:#ff8400;
 
-  
 }
 
 *{
@@ -232,6 +231,6 @@ container{
 .btn-fechar{
   font-size: 1.4em;
   font-stretch: condensed;
-  font-weight: 800;
+  font-weight: 350;
   cursor: pointer;
 }
