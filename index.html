@@ -1,62 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <!--<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="./assets/styles/main.css" type="text/css">
-    <title>Itacerâmica - A loja da sua construção</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <!--<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet"> -->
+        <link rel="stylesheet" href="./assets/styles/root.css" type="text/css">
+        <link rel="stylesheet" href="./assets/styles/main.css" type="text/css">
+         <link rel="stylesheet" href="./assets/styles/responsive.css" type="text/css">
+        <title>Itacerâmica - A loja da sua construção</title>
+    </head>
 
-<body class="">
+    <body class="">
+        <section id="menu-float">
+            <span class="d-flex header-menu-float">
+                <h1>Menu</h1>
+                <a href="#close-menu" class="btn-fechar">X</a>
+            </span>
+            <ol class="d-flex flex-column justify-content-center body-menu-float">
+                <li>
+                     <a href="" class="col-3">
+                         Seus pedidos
+                     </a>
+                </li>
+                <li>
+                    <a href="" class="col-3">
+                        Meu Carrinho
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="btn-primary col-3 text-center">
+                        Contato
+                    </a>
+                </li>
+            </ol>
+            <span class="d-flex footer-menu-float">
+                itaceramica - by Luiz Moitinho
+            </span>
+        </section>
 
-    <header class="nav-bar">
-        <nav class="nav justify-content-center align-items-center">
-            <div class="logo col-2 d-flex align-items-center">
-                <a href="">Itacerâmica</a>
-                <span id="menu">
-                    <span class="icon-burguer"></span>
-                    <span class="icon-burguer"></span>
-                    <span class="icon-burguer"></span>
+        <header class="nav-bar">
+            <nav class="nav-bar2">
+                <span class="logo">
+                    <a href="">Itacerâmica</a>
                 </span>
-            </div>
-            <div class="col-2"></div>
-            <div class="col-10">
-                <div class="row d-flex justify-content-end" id="nav-side">
-                    <div class="col-7 m-0" id="nav-search">
-                        <div class="row d-flex justify-content-end">
-                            <input type="text" class=" m-0 input-larger"
-                                placeholder="Quer achar mais rápido? Pesquise aqui">
-                            <input type="button" class="m-0 icon-search ">
-                        </div>
-                    </div>
-                    <div class="col-5" id="nav-actions-side">
-                        <div class="row d-flex align-items-center">
 
-                            <a href="" class="col-3" id="requests">
+                <a id="menu" href="#menu-float">
+                    <span class="icon-burguer"></span>
+                    <span class="icon-burguer"></span>
+                    <span class="icon-burguer"></span>
+                </a>
 
-                            </a>
+                <div id="nav-search" class="row d-flex justify-content-end">
+                    <input type="text" class=" m-0 input-larger" placeholder="Quer achar mais rápido? Pesquise aqui">
+                    <input type="button" class="m-0 icon-search ">
+                </div>
 
-                            <a href="" class="col-3" id="shopping-car">
+                <div id="nav-actions-side" class="justify-content-end">
+                    <div class="row d-flex align-items-center justify-content-end">
+                        <a href="" class="col-3" id="requests"></a>
 
-                            </a>
+                        <a href="" class="col-3" id="shopping-car"></a>
 
-                            <a href="" class="btn-primary col-3 text-center">
-                                Contato
-                            </a>
-                        </div>
+                        <a href="" class="btn-primary col-3 text-center">
+                            Contato
+                        </a>
                     </div>
                 </div>
-            </div>
-            </div>
-        </nav>
-        <nav class="col-12 d-flex justify-content-center" id="search-footer">
-            <input type="text" class="m-0 input-larger"
-                placeholder="Quer achar mais rápido? Pesquise aqui">
-            <input type="button" class="m-0 icon-search ">
-        </nav>
-
-    </header>
-</body>
+            </nav>
+              <nav class="col-12 d-flex justify-content-center" id="search-footer">
+                <input type="text" class="m-0 input-larger" placeholder="Quer achar mais rápido? Pesquise aqui">
+                <input type="button" class="m-0 icon-search ">
+            </nav>
+        </header>
+    </body>
 
 </html>
