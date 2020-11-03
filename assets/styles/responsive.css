@@ -1,0 +1,98 @@
+@media (max-width: 1200px) { 
+  
+  
+  .border-left{
+    border-left: 1px solid var(--color-gray-light);
+    height: 100%;
+  }
+
+  #nav-actionsside{
+    display: block;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+
+  body{
+    font-size: 97%;
+  }
+
+  #requests::after{
+    content: url('../icons/cliente.svg');
+  }
+
+  #shopping-car::after{
+    content: url('../icons/fazer-compras.svg');
+    width: 20px;
+    
+  }
+
+  #requests::after,
+  #shopping-car::after{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0
+  }
+
+ }
+
+ 
+@media (max-width: 768px) { 
+  body{
+    font-size: 96%;
+  }
+
+  .d-md-none{
+    display: none !important;
+  }
+  .d-md-block{
+    display: block !important;
+  }
+  
+  #nav-search{
+    display: none;
+  }
+
+  #nav-actions-side{
+    width: 70%;
+  
+  }
+
+  .input-larger{  
+     width: 80% !important;
+     border-radius:  .2em 0 0em .2em;
+  }
+  #search-footer{
+    margin-top: 1em !important;
+    display: flex;
+  }
+
+ }
+
+@media (max-width: 576px) { 
+
+  #nav-actions-side,
+  #search-footer{
+    display: none;
+  }
+  .logo>a{
+    font-size: 1.9em;
+  }
+
+  #search-footer{
+    margin-top: 1em !important;
+    display: flex;
+    margin: 0;
+  }
+  
+  #menu{
+    display: grid;
+
+  }
+ }
+
+
