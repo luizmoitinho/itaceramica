@@ -125,6 +125,7 @@
   display: none;
   padding: 1.5em;
   transition: 0.5;
+  height: 100%;
 }
 
 #menu-float:target{
