@@ -155,7 +155,7 @@
 
 .body-menu-float>li{
   margin: .2em;
-  padding:1em;
+  padding:.6em;
   transition: .5s;
   cursor: pointer;
 }
