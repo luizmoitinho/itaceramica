@@ -1,14 +1,13 @@
 
 .item{
-    max-width: 200px;
+    max-width: 280px;
     max-height: 350px;
-    height: 12em;
-    width: 12.5em;
+    height: 125em;
+    width: 18em;
     font-size: 12px;
     background-color: #fff;
     margin: 0em 1em 1em 0;
 	text-align: center;
-    font-size: 1.5em;
 
     display: flex;
     flex-direction: column;
@@ -26,12 +25,37 @@
     box-shadow: -1px 5px 1em  var(  --color-gray-primary);
 }
 
+.item-desc{
+    font-weight: 400;
+    color:var(--color-red-)
+}
+
 .item:last-child{
     margin-right: 0em;
 }
 
 .item-container{
-    grid-template-columns: repeat(auto-fill, minmax(14em, auto));
+    grid-template-columns: repeat(auto-fill, minmax(16em, auto));
+}
+
+
+.item-body{
+    text-align: left;
+    color:#000;
+    font-size: 1.3em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-desc{
+    font-weight: 400;
+
+}
+
+.item-price{
+    margin-top: .5em;
+    color:var(--color-red-bold)
 }
 
 .grid {
@@ -60,4 +84,8 @@
 .box-item>.title-item{
     display: flex;
     justify-content: flex-start;
+}
+
+.img-fluid{
+    width: 100%;
 }
