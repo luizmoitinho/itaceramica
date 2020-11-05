@@ -95,6 +95,17 @@
   .menu-products{
     display: none;
   }
+
+  .box-contato{
+    padding: 1em;
+  }
+  .box-contato div{
+    width: 100%;
+  }
+  .box-contato form{
+    width: 100%;
+  }
+
  }
 
 

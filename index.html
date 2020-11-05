@@ -7,11 +7,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="./assets/styles/root.css" type="text/css">
-        <link rel="stylesheet" href="./assets/styles/item.css" type="text/css">
-        <link rel="stylesheet" href="./assets/styles/main.css" type="text/css">
-        <link rel="stylesheet" href="./assets/styles/responsive.css" type="text/css">
-        <title>Itacerâmica - A loja da sua construção</title>
+    <link rel="stylesheet" href="./assets/styles/root.css" type="text/css">
+    <link rel="stylesheet" href="./assets/styles/contato.css" type="text/css">
+    <link rel="stylesheet" href="./assets/styles/item.css" type="text/css">
+    <link rel="stylesheet" href="./assets/styles/main.css" type="text/css">
+    <link rel="stylesheet" href="./assets/styles/responsive.css" type="text/css">
+    <title>Itacerâmica - A loja da sua construção</title>
 </head>
 
 <body class="">
@@ -53,7 +54,7 @@
                 </a>
             </li>
             <li>
-                <a href="" class="btn btn-secondary col-3 text-center">
+                <a href="#contato" class="btn btn-secondary col-3 text-center">
                     Contato
                 </a>
             </li>
@@ -86,7 +87,7 @@
 
                     <a href="#" class="col-3" id="shopping-car"></a>
 
-                    <a href="#" class="btn btn-primary col-3 text-center">
+                    <a href="#contato" class="btn btn-primary col-3 text-center">
                         Contato
                     </a>
                 </div>
@@ -129,6 +130,25 @@
         </div>
     </section>
 
+    <section class="container  justify-content-center box-item mt-4">
+        <div class="title-item">
+            <span>Cimentos & Ferramentas</span>
+            <hr class="hr">
+        </div>
+        <div class="grid item-container ">
+            <div class="item ">1</div>
+            <div class="item ">
+                <span>2</span>
+                <div class="">
+                    corpo
+                </div>
+            </div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+        </div>
+    </section>
+
     <section class="container box-item mt-4">
         <div class="title-item">
             <span>Cimentos & Ferramentas</span>
@@ -148,23 +168,42 @@
         </div>
     </section>
 
-    <section class="container  justify-content-center box-item mt-4">
-        <div class="title-item">
-            <span>Cerâmicas</span>
-            <hr class="hr">
-        </div>
-        <div class="grid item-container ">
-            <div class="item ">1</div>
-            <div class="item ">
-                <span>2</span>
-                <div class="">
-                    corpo
+    <section class="container justify-content-center box-contato " id="contato">
+            <span class="d-flex header-contato">
+                <h1>Contato</h1>
+            </span>
+            <form action="mailto:luizcarlos_costam@hotmail.com"  method="post" class="row" enctype="text/plain">
+                <div class="d-flex flex-column">
+                    <label class="" for="">
+                        Nome:
+                    </label>
+                    <input type="text" placeholder="Informe seu nome" class="input-control" name="Nome"><br>
                 </div>
-            </div>
-            <div class="item">3</div>
-            <div class="item">4</div>
-            <div class="item">5</div>
-        </div>
+
+                <div class="d-flex flex-column ">
+                    <label class="" for="">
+                        E-mail:
+                    </label>
+                    <input type="email" placeholder="Informe seu e-mail para contato" class="input-control" name="E-mail"><br>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <label class="" for="">
+                    Cometário
+                    </label>
+                    <textarea name="comentario"  class=" textarea-control" id="" cols="10" rows="10"
+                        placeholder="Digite uma breve descrição ..."
+                    ></textarea>
+                </div>
+                <div class="d-flex flex-row mt-2 ">
+
+                    <button href="" class="btn btn-secondary col-3 text-center">
+                        Enviar
+                    </button>
+
+                </div>
+            </form>
+
     </section>
 
 </body>
