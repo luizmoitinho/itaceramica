@@ -173,9 +173,7 @@
   transition: .5s;
 }
 
-.body-menu-float>li>a.btn-primary{
-  background-color: #d80039;
-}
+
 
 .footer-menu-float{
   position: absolute;
@@ -191,7 +189,7 @@
 
 .footer-menu-float:hover{
   transition: .5s;
-  background-color:  #000 ;
+  background-color:  #000 !important;
   color:  var(--color-white-primary);
 }
 

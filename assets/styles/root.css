@@ -218,9 +218,7 @@ container{
 
 /*=========== BUTTONS ================*/
 
-.btn-primary{
-  background: ;
-  color: var(--color-white-primary);
+.btn{
   width: 100px;
   height: 50px;
   display: flex;
@@ -228,13 +226,25 @@ container{
   align-items: center;
   border-radius: .3em;
   text-align: center;
-
   margin: 0;
+
 }
 
+.btn-primary{
+  background: #0000005d ;
+  color: var(--color-white-primary);
+
+}
+
+.btn-secondary{
+  background-color: #d80039;
+  color: var(--color-white-primary);
+}
+
+
 .btn-primary:hover{
-  background: var(--color-white-primary);
-  color: var(--color-red-bold);
+  background: var(--color-white-primary) !important;
+  color: var(--color-red-bold) !important;
 }
 
 
