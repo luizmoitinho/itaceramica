@@ -1,0 +1,32 @@
+
+
+.box-contato{
+    
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 2em;
+    margin: 1em 0 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.box-contato div{
+    width: 30em;
+}
+
+.header-contato{
+    padding:1em;
+    justify-content: space-between;
+    top: 0;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+  }
+
+
+  .header-contato>h1{
+    font-weight: 500;   
+  }
+
+  
