@@ -67,7 +67,7 @@
 
 .header-product{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(0em, auto));
+    grid-template-columns: repeat(auto-fill, minmax(30em, auto));
 }
 
 .input-control{
