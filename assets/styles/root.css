@@ -185,6 +185,10 @@ textarea:focus{
   text-align: center;
 }
 
+.img-fluid{
+  width: 100%;
+}
+
 container{
   width: 80vw;
 }
@@ -252,7 +256,18 @@ container{
   border-radius: .3em;
   text-align: center;
   margin: 0;
+}
 
+.btn-larger{
+  width: 200px;
+  height: 50px;
+  background-color: var(--color-orange-primary);
+  color: var(--color-white-primary);
+  border-radius: .3em;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary{
