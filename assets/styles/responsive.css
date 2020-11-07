@@ -109,3 +109,23 @@
  }
 
 
+
+ @media (max-width: 276px) { 
+
+
+  .logo>a{
+    font-size: 1.4em;
+  }
+
+  #search-footer{
+    margin-top: 1em !important;
+    display: flex;
+    margin: 0;
+  }
+  
+  #menu{
+    display: grid;
+  }
+
+
+ }
