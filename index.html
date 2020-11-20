@@ -7,6 +7,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400&display=swap"
       rel="stylesheet"
     />
+
+    <script src="./assets/js/jquery.js" ></script>
+    <link rel="stylesheet" href="./assets/bootstrap-4.5.3-dist/css/bootstrap.min.css" type="text/css" />
+    <script src="./assets/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="./assets/styles/root.css" type="text/css" />
     <link rel="stylesheet" href="./assets/styles/contato.css" type="text/css" />
     <link rel="stylesheet" href="./assets/styles/item.css" type="text/css" />
@@ -16,98 +21,54 @@
       href="./assets/styles/responsive.css"
       type="text/css"
     />
+
+
     <title>Itacerâmica - A loja da sua construção</title>
   </head>
 
   <body class="">
-    <a href="#header" class="btn-up">
-      <span></span>
-    </a>
-    <section id="menu-float">
-      <span class="d-flex header-menu-float">
-        <h1>Menu</h1>
-        <a href="#close-menu" class="btn-fechar">X</a>
+
+
+  <nav class="navbar navbar-expand-lg bg-color-red">
+      <span class="logo navbar-brand">
+        <a href="index.html">Itacerâmica</a>
       </span>
-      <ol class="d-flex flex-column justify-content-center body-menu-float">
-        <li>
-          <h3>Ações</h3>
+  
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-5  ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Azulejos & Cerâmicas</a>
         </li>
-        <li>
-          <a href="#azulejos-ceramicas" class="col-3"> Azulejos & Cerâmicas </a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Materiais & Cimentos</a>
         </li>
-        <li>
-          <a href="#materiais" class="col-3"> Materiais </a>
+          <li class="nav-item">
+          <a class="nav-link" href="#">Ferramentas</a>
         </li>
-        <li>
-          <a href="#ferramentas" class="col-3"> Ferramentas </a>
-        </li>
-        <li>
-          <h3>Conta</h3>
-        </li>
-        <li>
-          <a href="" class="col-3"> Seus pedidos </a>
-        </li>
-        <li>
-          <a href="" class="col-3"> Meu Carrinho </a>
-        </li>
-        <li>
-          <a href="#contato" class="btn btn-secondary col-3 text-center">
-            Contato
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Ações
           </a>
-        </li>
-      </ol>
-      <span class="d-flex footer-menu-float" >
-        Itacerâmica by Luiz Moitinho
-      </span>
-    </section>
-
-    <header class="nav-bar" id="header">
-      <nav class="nav-bar2">
-        <span class="logo">
-          <a href="index.html">Itacerâmica</a>
-        </span>
-
-        <a id="menu" href="#menu-float">
-          <span class="icon-burguer"></span>
-          <span class="icon-burguer"></span>
-          <span class="icon-burguer"></span>
-        </a>
-
-        <div id="nav-search" class="row d-flex justify-content-end">
-          <input
-            type="text"
-            class="m-0 input-larger"
-            placeholder="Quer achar mais rápido? Pesquise aqui"
-          />
-          <input type="button" class="m-0 icon-search" />
-        </div>
-
-        <div id="nav-actions-side" class="justify-content-end">
-          <div class="row d-flex align-items-center justify-content-end">
-            <a href="#" class="col-3" id="requests"></a>
-
-            <a href="#" class="col-3" id="shopping-car"></a>
-
-            <a href="#contato" class="btn btn-primary col-3 text-center">
-              Contato
-            </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Pedidos</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Carrinho</a>
           </div>
-        </div>
-      </nav>
-      <nav class="col-12 d-flex justify-content-center" id="search-footer">
-        <input
-          type="text"
-          class="m-0 input-larger"
-          placeholder="Quer achar mais rápido? Pesquise aqui"
-        />
-        <input type="button" class="m-0 icon-search" />
-      </nav>
-      <div class="mt-1 menu-products">
-        <a href="#azulejos-ceramicas" class="col-4"> Azulejos & Cerâmicas </a>
-        <a href="#ferramentas" class="col-4"> Ferramentas </a>
-        <a href="#materiais" class="col-4"> Materiais </a>
-      </div>
-    </header>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <a href="#contato" class="btn btn-primary-red col-3 text-center">
+              Contato
+          </a>
+      </form>
+    </div>
+  </nav>
 
     <section id="azulejos-ceramicas" class="container box-item mt-4">
       <div class="title-item">

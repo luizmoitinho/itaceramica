@@ -271,7 +271,7 @@ container{
   justify-content: center;
 }
 
-.btn-primary{
+.btn-primary-red{
   background: var(--color-black-opacity) ;
   color: var(--color-white-primary);
 
