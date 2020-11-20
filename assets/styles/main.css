@@ -1,5 +1,8 @@
 
 /*=========== HEADER ================*/
+.bg-color-red{
+  background-color: var(--color-red-primary);
+}
 .nav-bar{
   top: 0;
   padding: 1em;
