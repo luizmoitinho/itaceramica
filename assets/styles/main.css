@@ -28,18 +28,8 @@
   margin: 0 1em 0 1em;
 }
 
-.container{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
-.nav-bar>nav:last-child{
-  display: flex;
-  justify-self: end;
-}
+
 .mt-4{
   margin-top: 4em;
 }
