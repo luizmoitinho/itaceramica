@@ -166,7 +166,7 @@ textarea:focus{
 }
 
 .justify-content-center{
-  justify-content: center;
+  justify-content: center !important;
 
 }
 

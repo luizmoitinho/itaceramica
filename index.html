@@ -1,415 +1,323 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="UTF-8" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta charset="UTF-8"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400&display=swap" rel="stylesheet"/>
 
-    <script src="./assets/js/jquery.js" ></script>
-    <link rel="stylesheet" href="./assets/bootstrap-4.5.3-dist/css/bootstrap.min.css" type="text/css" />
+    <script src="./assets/js/jquery.js"></script>
+    <link rel="stylesheet" href="./assets/bootstrap-4.5.3-dist/css/bootstrap.min.css" type="text/css"/>
     <script src="./assets/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="./assets/styles/root.css" type="text/css" />
-    <link rel="stylesheet" href="./assets/styles/contato.css" type="text/css" />
-    <link rel="stylesheet" href="./assets/styles/item.css" type="text/css" />
-    <link rel="stylesheet" href="./assets/styles/main.css" type="text/css" />
-    <link
-      rel="stylesheet"
-      href="./assets/styles/responsive.css"
-      type="text/css"
-    />
-
+    <link rel="stylesheet" href="./assets/styles/root.css" type="text/css"/>
+    <link rel="stylesheet" href="./assets/styles/contato.css" type="text/css"/>
+    <link rel="stylesheet" href="./assets/styles/item.css" type="text/css"/>
+    <link rel="stylesheet" href="./assets/styles/main.css" type="text/css"/>
+    <link rel="stylesheet" href="./assets/styles/responsive.css" type="text/css"/>
 
     <title>Itacerâmica - A loja da sua construção</title>
   </head>
 
   <body class="">
-
-
-  <nav class="navbar navbar-expand-lg bg-color-red">
+    <nav class="navbar navbar-expand-lg bg-color-red">
       <span class="logo navbar-brand">
         <a href="index.html">Itacerâmica</a>
       </span>
-  
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-           <a id="menu" href="#menu-float">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a id="menu" href="#menu-float">
           <span class="icon-burguer"></span>
           <span class="icon-burguer"></span>
           <span class="icon-burguer"></span>
         </a>
+      </button>
 
-    </button>
-
-    <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-5  ">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Azulejos & Cerâmicas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Materiais & Cimentos</a>
-        </li>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-5">
           <li class="nav-item">
-          <a class="nav-link" href="#">Ferramentas</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Ações
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Pedidos</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Carrinho</a>
-          </div>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <a class="nav-link" href="#">Azulejos & Cerâmicas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Materiais & Cimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ferramentas</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ações
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Pedidos</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Carrinho</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
           <a href="#contato" class="btn btn-primary-red col-3 text-center">
-              Contato
+            Contato
           </a>
-      </form>
-    </div>
-  </nav>
+        </form>
+      </div>
+    </nav>
 
     <section id="azulejos-ceramicas" class="container box-item mt-4">
       <div class="title-item">
         <span>Azulejos & Cerâmicas</span>
-        <hr class="hr" />
+        <hr class="hr"/>
       </div>
       <div class="grid justify-content-center item-container">
         <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/ceramica01.webp"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/ceramica01.webp" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                  Piso Rotocolor Angra 44,75x44,75cm bege claro Formigres
-              </span>
-                <span class="item-price">
-                    Preço: R$ 23,80
-                </span>
+            <span class="item-desc">
+              Piso Rotocolor Angra 44,75x44,75cm bege claro Formigres
+            </span>
+            <span class="item-price">
+              Preço: R$ 23,80
+            </span>
           </div>
         </a>
 
         <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/ceramica02.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/ceramica02.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                  Piso Rotocolor Imbuia 44,75x44,75cm bege claro Formigres
-              </span>
-                <span class="item-price">
-                    Preço: R$ 28,90
-                </span>
+            <span class="item-desc">
+              Piso Rotocolor Imbuia 44,75x44,75cm bege claro Formigres
+            </span>
+            <span class="item-price">
+              Preço: R$ 28,90
+            </span>
           </div>
         </a>
 
         <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/ceramica03.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/ceramica03.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                  Piso Rotocolor Naturale 50x50cm marrom madeira Formigres
-              </span>
-                <span class="item-price">
-                    Preço: R$ 49,75
-                </span>
+            <span class="item-desc">
+              Piso Rotocolor Naturale 50x50cm marrom madeira Formigres
+            </span>
+            <span class="item-price">
+              Preço: R$ 49,75
+            </span>
           </div>
         </a>
 
-        <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/azulejo01.png"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/azulejo01.png" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                   Adesivo para Azulejo Madri 15x15cm com 16 Peças Laranja E Marrom
-              </span>
-                <span class="item-price">
-                    Preço: R$ 39,99 un
-                </span>
+            <span class="item-desc">
+              Adesivo para Azulejo Madri 15x15cm com 16 Peças Laranja E Marrom
+            </span>
+            <span class="item-price">
+              Preço: R$ 39,99 un
+            </span>
           </div>
         </a>
 
-        <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/azulejo02.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/azulejo02.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                  Piso Rotocolor Angra 44,75x44,75cm bege claro Formigres
-              </span>
-                <span class="item-price">
-                    Preço: R$ 23,80
-                </span>
+            <span class="item-desc">
+              Piso Rotocolor Angra 44,75x44,75cm bege claro Formigres
+            </span>
+            <span class="item-price">
+              Preço: R$ 23,80
+            </span>
           </div>
         </a>
-
-
       </div>
     </section>
 
-        <section id="materiais" class="container box-item mt-4">
+    <section id="materiais" class="container box-item mt-4">
       <div class="title-item">
         <span>Materiais</span>
         <hr class="hr"/>
       </div>
       <div class="grid justify-content-center item-container">
-
-          <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/lixa_parede01.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/lixa_parede01.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                  Lixa para parede 22,5x27,5cm gramatura vermelho 180 Norton
-              </span>
-                <span class="item-price">
-                    Preço: R$ 0,69 un
-                </span>
+            <span class="item-desc">
+              Lixa para parede 22,5x27,5cm gramatura vermelho 180 Norton
+            </span>
+            <span class="item-price">
+              Preço: R$ 0,69 un
+            </span>
           </div>
         </a>
-                <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/procelanato01.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/procelanato01.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                  Porcelanato Eliane Iron externo esmaltado retificado C: 118,2 cm x L: 59cm marrom
-              </span>
-                <span class="item-price">
-                    Preço: R$ 131,92/caixa 
-                </span>
+            <span class="item-desc">
+              Porcelanato Eliane Iron externo esmaltado retificado C: 118,2 cm x L: 59cm marrom
+            </span>
+            <span class="item-price">
+              Preço: R$ 131,92/caixa
+            </span>
           </div>
         </a>
-                <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/cabo_flexivel01.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/cabo_flexivel01.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                  Cabo Flexível com até 750V 2,5mm preto 100 metros Cobrecom
-              </span>
-                <span class="item-price">
-                    Preço: R$ 179,89 
-                </span>
+            <span class="item-desc">
+              Cabo Flexível com até 750V 2,5mm preto 100 metros Cobrecom
+            </span>
+            <span class="item-price">
+              Preço: R$ 179,89
+            </span>
           </div>
         </a>
-                <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img//cimento_votoran.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img//cimento_votoran.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                 Cimento Todas as Obras 50kgs CPII Z 32R Votoran
-              </span>
-                <span class="item-price">
-                    Preço: R$ 26,99
-                </span>
+            <span class="item-desc">
+              Cimento Todas as Obras 50kgs CPII Z 32R Votoran
+            </span>
+            <span class="item-price">
+              Preço: R$ 26,99
+            </span>
           </div>
         </a>
 
-        <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img//massa_corrida.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img//massa_corrida.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                Massa corrida 25Kg Suvinil
-              </span>
-                <span class="item-price">
-                    Preço: R$ 69,90
-                </span>
+            <span class="item-desc">
+              Massa corrida 25Kg Suvinil
+            </span>
+            <span class="item-price">
+              Preço: R$ 69,90
+            </span>
           </div>
         </a>
-
-
-
       </div>
     </section>
 
-    <section
-      id="ferramentas"
-      class="container justify-content-center box-item mt-4">
+    <section id="ferramentas" class="container justify-content-center box-item mt-4">
       <div class="title-item">
         <span>Ferramentas</span>
-        <hr class="hr" />
+        <hr class="hr"/>
       </div>
       <div class="grid item-container">
-        <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img//colher.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img//colher.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                Colher de pedreiro n°6 cinza Tramontina
-              </span>
-                <span class="item-price">
-                    Preço: R$ 19,71
-                </span>
+            <span class="item-desc">
+              Colher de pedreiro n°6 cinza Tramontina
+            </span>
+            <span class="item-price">
+              Preço: R$ 19,71
+            </span>
           </div>
         </a>
 
-        <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/cortador.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/cortador.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                Cortador de piso profissional 136,5cm Master 115 Cortag
-              </span>
-                <span class="item-price">
-                    Preço: R$ 529,90
-                </span>
+            <span class="item-desc">
+              Cortador de piso profissional 136,5cm Master 115 Cortag
+            </span>
+            <span class="item-price">
+              Preço: R$ 529,90
+            </span>
           </div>
         </a>
 
-        <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/serra.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/serra.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-                Lâmina de serra manual bimetal 12" 24 dentes 2 unidades Starrett
-              </span>
-                <span class="item-price">
-                    Preço: R$ 17,90
-                </span>
+            <span class="item-desc">
+              Lâmina de serra manual bimetal 12" 24 dentes 2 unidades Starrett
+            </span>
+            <span class="item-price">
+              Preço: R$ 17,90
+            </span>
           </div>
         </a>
 
-                <a  class="item">
+        <a class="item">
           <span>
-            <img
-              class="img-fluid"
-              src="./assets/img/ponteiro.jpg"
-              alt=""
-            />
+            <img class="img-fluid" src="./assets/img/ponteiro.jpg" alt=""/>
           </span>
           <div class="item-body">
-              <span class="item-desc">
-               Ponteiro 10" aço carbono Tramontina
-              </span>
-                <span class="item-price">
-                    Preço: R$ 37,90
-                </span>
+            <span class="item-desc">
+              Ponteiro 10" aço carbono Tramontina
+            </span>
+            <span class="item-price">
+              Preço: R$ 37,90
+            </span>
           </div>
         </a>
-
-
       </div>
     </section>
 
+    <footer class="mt-2 container-fluid box-contato d-flex justify-content-center flex-column p-5">
 
+      <form action="mailto:luizcarlos_costam@hotmail.com" method="post" class="container" enctype="text/plain">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Contato</h1>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-12 mt-1 ">
+            <label class="" for="">
+              Nome:
+            </label>
+            <input type="text" placeholder="Informe seu nome" class="col-md-12 form-control " name="Nome"/>
+          </div>
 
-    <section
-      class="mt-2 container justify-content-center box-contato"
-      id="contato"
-    >
-      <span class="d-flex header-contato">
-        <h1>Contato</h1>
-      </span>
-      <form
-        action="mailto:luizcarlos_costam@hotmail.com"
-        method="post"
-        class="row"
-        enctype="text/plain"
-      >
-        <div class="d-flex flex-column">
-          <label class="" for=""> Nome: </label>
-          <input
-            type="text"
-            placeholder="Informe seu nome"
-            class="input-control"
-            name="Nome"
-          /><br />
+          <div class="col-md-12 mt-1">
+            <label class="" for="">
+              E-mail:
+            </label>
+            <input type="email" placeholder="Informe seu e-mail para contato" class="col-md-12 form-control" name="E-mail"/>
+          </div>
+
+          <div class="col-md-12 mt-1">
+            <label class="" for="">
+              Comentário
+            </label>
+            <textarea name="comentario" class="col-md-12 form-control" id="" cols="10" rows="5" placeholder="Digite uma breve descrição ..."></textarea>
+          </div>
+          <div class="col-md-12 mt-1">
+            <button class="btn btn-primary  text-center">Enviar</button>
+          </div>
         </div>
 
-        <div class="d-flex flex-column">
-          <label class="" for=""> E-mail: </label>
-          <input
-            type="email"
-            placeholder="Informe seu e-mail para contato"
-            class="input-control"
-            name="E-mail"
-          /><br />
-        </div>
+      </div>
+    </form>
+  </span>
+</footer>
 
-        <div class="d-flex flex-column">
-          <label class="" for=""> Cometário </label>
-          <textarea
-            name="comentario"
-            class="textarea-control"
-            id=""
-            cols="10"
-            rows="10"
-            placeholder="Digite uma breve descrição ..."
-          ></textarea>
-        </div>
-        <div class="d-flex flex-row mt-2">
-          <button  class="btn btn-secondary col-3 text-center">
-            Enviar
-          </button>
-        </div>
-      </form>
-    </section>
-  </body>
+</body>
 </html>
